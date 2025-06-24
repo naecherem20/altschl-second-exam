@@ -10,6 +10,3 @@ app.include_router(new_user_router)
 app.include_router(registration_router)
 app.include_router(event_router)
 
-# @app.get("user/")
-# async def new_user(users:new_user):
-#     return{"all_users":users}
